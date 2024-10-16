@@ -96,7 +96,6 @@ private:
           request_response_pair.second->sum);
           if (timer_)
           {
-            timer_->cancel();
             timer_.reset();
           }
       };
